@@ -18,6 +18,10 @@ ul {
   list-style: none;
 }
 
+/* li{
+  margin-left: 30px;
+} */
+
 .section-1{
   border-bottom: 1px solid rgb(201, 197, 197);
 }
@@ -46,6 +50,13 @@ ul {
 .li-top{
   font-size: 25px;
   color: rgb(94, 91, 91);
+}
+.green{
+  color: green;
+}
+
+.red{
+  color: red;
 }
 
 
@@ -111,4 +122,26 @@ header {
   text-align: center;
   display: inline-block;
 border: 1px solid grey
+}
+
+.yes{background-color: white;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+border: 1px solid green;
+
+}
+
+.no{background-color: white;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+border: 1px solid red;
+
 }
